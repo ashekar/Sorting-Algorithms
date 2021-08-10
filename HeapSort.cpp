@@ -292,6 +292,17 @@ void QuickSort(int *array, int sizeOfArray){
 
 }
 
+
+bool inDescendingOrder(int *arr, int sizeOfArray){
+    for(int z = sizeOfArray - 1; z > 0; z--){
+        if(arr[z-1] > arr[z]){
+            return false;
+        }
+    }
+
+    return true;
+}
+
 //Main function -- test
 
 int main()
