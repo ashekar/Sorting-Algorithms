@@ -292,6 +292,7 @@ void QuickSort(int *array, int sizeOfArray){
 
 }
 
+//Main function
 
 int main()
 {
